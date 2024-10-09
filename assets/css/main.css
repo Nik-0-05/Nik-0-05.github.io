@@ -2133,6 +2133,11 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.image.fit {
+  				image-rendering: -webkit-optimize-contrast;
+  				image-rendering: crisp-edges;
+			}
+
 		.image.avatar {
 			border-radius: 100%;
 		}
