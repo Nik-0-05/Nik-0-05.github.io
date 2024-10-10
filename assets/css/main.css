@@ -3224,3 +3224,24 @@ input, select, textarea {
 			}
 
 	}
+
+		/* New Image Edit */
+
+			.image-container {
+  				width: 12.7cm;
+  				height: 7.4cm;
+  				overflow: hidden;
+  				position: relative;
+	}
+
+			.image-container img {
+  				position: absolute;
+  				top: 50%;
+  				left: 50%;
+  				transform: translate(-50%, -50%);
+  				min-width: 100%;
+  				min-height: 100%;
+  				width: auto;
+  				height: auto;
+  				object-fit: cover;
+	}
