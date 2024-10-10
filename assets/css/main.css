@@ -3224,3 +3224,16 @@ input, select, textarea {
 			}
 
 	}
+
+		/* Adding Tableau Icon */
+
+			.tableau-icon {
+  				display: inline-block;
+  				width: 1em;
+  				height: 1em;
+  				background-image: url('images/tableau_icon.svg');
+  				background-size: contain;
+  				background-repeat: no-repeat;
+  				background-position: center;
+	}
+
