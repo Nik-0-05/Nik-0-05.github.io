@@ -3229,12 +3229,12 @@ input, select, textarea {
 /* 1*/
 
 .small-text {
-  font-size: 0.8em; /* Adjust this value to get the desired size */
+  font-size: 0.6em; /* Adjust this value to get the desired size */
 }
 
 /* 2 */
 
 .small-text i {
-  font-size: 1em; /* This makes the icon the same size as the text */
+  font-size: 0.6em; /* This makes the icon the same size as the text */
 }
 
