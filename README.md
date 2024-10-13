@@ -1,9 +1,6 @@
 # My Personal Website
 This website showcases my professional profile and portfolio. It was created using a template from [HTML5 UP](https://html5up.net/). I customized the template to match my personal style and needs, including adding new icons, modifying the layout, and tweaking the overall design.
 
-## Content Integration
-I populated the website with my own text, images, and links to create a personalized professional showcase.
-
 ## Customizations
 I modified the template's HTML, CSS, and JavaScript to tailor the design and functionality to my specific needs. Key modifications included:
 - **Personalizing content:** Added my personal information, projects, and skills.
@@ -19,4 +16,3 @@ The website is hosted using GitHub Pages, allowing for easy updates and maintena
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Thank you for your time!
-
