@@ -3238,3 +3238,40 @@ input, select, textarea {
   font-size: 0.9em; /* This makes the icon the same size as the text */
 }
 
+/* Adding mouse scroll */
+
+.mousey {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    --app-height: 100%;
+    font-family: OpenSans, Helvetica, Arial, sans-serif;
+    position: absolute;
+    bottom: 10px;
+    left: calc(50% - 8px);
+    box-sizing: content-box;
+    width: 3px; /* Width of the scroll indicator */
+    height: 18px; /* Height of the scroll indicator */
+    padding: 10px 11px; /* Padding around the scroller */
+    border: 2px solid #000; /* Border color */
+    border-radius: 25px; /* Rounded corners */
+    opacity: .75; /* Transparency level */
+}
+
+.scroller {
+    width: 10px; /* Width of the inner scroller */
+    height: 10px; /* Height of the inner scroller */
+    background-color: #000; /* Color of the scroller */
+    border-radius: 50%; /* Circular shape */
+    position: relative;
+    animation: scroll 1s infinite alternate; /* Animation effect */
+}
+
+@keyframes scroll {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(15px); /* Scroll distance */
+    }
+}
+
