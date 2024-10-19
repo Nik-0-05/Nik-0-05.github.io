@@ -3246,8 +3246,8 @@ input, select, textarea {
     --app-height: 100%;
     font-family: OpenSans, Helvetica, Arial, sans-serif;
     position: absolute;
-    bottom: 10px;
-    left: calc(50% - 8px);
+    bottom: 218px;
+    left: calc(50% + 313px);
     box-sizing: content-box;
     width: 3px; /* Width of the scroll indicator */
     height: 18px; /* Height of the scroll indicator */
